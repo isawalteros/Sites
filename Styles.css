@@ -1,0 +1,201 @@
+body {
+    font-family: Mención deshonrosa, sans- serif;
+    h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 50px;
+}
+    margin: 0;
+    padding: 0;
+    background-color: #D1D1D2;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gallery-item {
+    flex-basis: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+header {
+    background-color: #2B2A2F;
+    color: #7D7B76;
+    padding: 30px;
+    font-family: Mención deshonrosa, sans- serif;
+    h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 50px;
+}
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #EDE7DF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f7fcff;
+}
+
+main {
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 0px;
+}
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh; /* Establece la altura del body al 100% de la altura visible */
+      background-image: url('436667531_823988599177042_6740946153441286298_n.png'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta a tu imagen */
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position:center;
+    }
+
+.content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: #ffffff; /* Establece el color del texto a blanco */
+padding: 190px;
+background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente negro */
+}
+
+    .content h1 {
+    color: #C2B9BA; /* Establece el color del título a amarillo */
+    margin: 0;
+    padding: 0;
+    font-size: 48px; /* Tamaño del título */
+  }
+
+  .content p {
+    margin: 20px 0;
+    font-size: 24px; /* Tamaño del párrafo */
+  }
+
+  .content p {
+    margin: 30px 0;
+  }
+
+  .content a {
+    display: inline-block;
+    background-color: #7D7B76; /* Color de fondo del botón (rojo) */
+    color: white; /* Color del texto del botón */
+    text-decoration: none;
+    padding: 35px 35px 30px 40px; /* Agrega más relleno a la izquierda para la flecha */
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative; /* Necesario para posicionar la flecha */
+  }
+
+  .content a:before {
+    content: "→"; /* Agrega la flecha como contenido antes del botón */
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    transform: translateY(-50%); /* Centra verticalmente la flecha */
+    font-size: 35px;
+  }
+
+  .content a:hover {
+    background-color: #4C4B4C; /* Color de fondo del botón al pasar el cursor (rojo más oscuro) */
+  }
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #fff7f7;
+}
+
+p {
+    line-height: 1.5;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: #77A78A;
+    color: #2B2A2F;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #77A78A;
+}
+
+footer {
+    background-color: #2B2A2F;
+    color: #7D7B76;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
